@@ -1,0 +1,277 @@
+.topbar {
+  width: fit-content;
+  display: flex;
+  gap: 30rem;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tbtn1 {
+  cursor: pointer;
+  margin: .80rem;
+  padding: .70rem;
+  width: 5rem;
+  border: 1px solid red;
+  color: red;
+  background-color: white;
+
+}
+
+hr {
+  margin-top: 1.5rem;
+
+}
+
+.g-box {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 1rem;
+}
+
+.box {
+  width: fit-content;
+  display: flex;
+  gap: 2.9rem;
+}
+
+.b-email {
+  border-radius: 20px;
+  background-color: #fafafa;
+  /*#fafafa*/
+
+}
+
+.d-data {
+  display: flex;
+  width: 10rem;
+
+  flex-direction: column;
+
+}
+
+.d-data p {
+  margin-top: -.20rem;
+  margin-bottom: 0.3rem;
+}
+
+span {
+
+  width: 10rem;
+  font-weight: 500;
+
+
+}
+
+.c-icon {
+
+  color: #3397ef;
+  font-size: 1.4rem;
+  margin-top: -.40rem;
+  margin-left: .40rem;
+}
+
+.c-head h5 {
+  font-size: larger;
+  margin-bottom: 1rem;
+}
+
+.b-phone {
+  gap: 1rem;
+  border: 1px solid #e5e5e5;
+  display: flex;
+  flex-direction: row;
+  border-radius: 12px;
+  background-color: #fafafa;
+  /*#fafafa*/
+  width: 20rem;
+  padding: 1rem;
+  height: fit-content;
+}
+
+.tbtn2 {
+  cursor: pointer;
+  margin: .80rem;
+  padding: .70rem;
+  border: 1px solid #3397ef;
+  color: White;
+  background-color: #3397ef;
+
+}
+
+.mprofile {
+  display: flex;
+  margin: .5rem;
+  padding: .5rem;
+  gap: 1rem;
+
+}
+
+.mprofilepic {
+  margin-top: -.10rem;
+  height: 8rem;
+  width: 8rem;
+}
+
+.linkedinn {
+  margin-top: 2rem;
+  margin-left: -1.4rem;
+}
+
+.linkedin {
+  color: #3397ef;
+  font-size: large;
+  padding: 1rem;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-top: -.9rem;
+  color: #404040;
+}
+
+.imgsq {
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+}
+
+.btnb {
+  display: flex;
+  margin-right: -3rem;
+  gap: -1rem;
+}
+
+.cardbtn {
+  width: 10rem;
+  border-radius: 15px;
+  color: #525252;
+  background-color: #e5e5e5;
+}
+
+.cardbtn1 {
+
+  margin-left: 2rem;
+  width: 6rem;
+  border-radius: 15px;
+  color: #525252;
+  background-color: #e5e5e5;
+}
+
+.btn3 {
+  margin-left: 6rem;
+  border: 1px solid #3397ef;
+  color: #3397ef;
+  background: white;
+}
+
+.litem {
+  display: flex;
+  gap: 2rem;
+  cursor: pointer;
+  width: fit-content;
+
+
+}
+
+.blitem {
+  color: #3397ef;
+}
+
+.up {
+  margin-top: 1rem;
+}
+
+.up p {
+  margin-top: -.75rem;
+}
+
+.card {
+  height: 7rem;
+  width: fit-content;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  background-color: #fafafa;
+  margin-bottom: 10px;
+}
+
+/*-----Tabs------*/
+
+.wrapper {
+  margin-top: -3rem;
+  max-width: 50rem;
+  width: 100%;
+
+}
+
+.tabs {
+  position: relative;
+  margin: 1rem 0;
+  height: 14.75rem;
+  padding: 1rem;
+
+}
+
+
+.tab {
+  float: left;
+}
+
+
+.tab-switch {
+  display: none;
+}
+
+.tab-label {
+  position: relative;
+  line-height: 2.75em;
+  height: 3em;
+  padding: 0 1.618em;
+  cursor: pointer;
+
+
+}
+
+.tab-label:hover {
+
+  color: #3397ef;
+  border-bottom: 2px solid #3397ef;
+
+}
+
+.tab-label:active {
+
+  color: #3397ef;
+  border-bottom: 2px solid #3397ef;
+
+}
+
+.tab-label:active {
+  color: #3397ef;
+
+
+}
+
+.tab-content {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  padding: 1rem;
+  background: #fff;
+  color: #2c3e50;
+  opacity: 0;
+  margin-top: -.6rem;
+  margin-left: .5rem;
+  border-top: 2px solid #E5E5E5;
+  transition: all 0.35s;
+}
+
+.tab-switch:checked+label+.tab-content {
+  z-index: 1;
+  opacity: 1;
+  transition: all 0.35s;
+}

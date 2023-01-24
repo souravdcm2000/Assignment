@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+   width: 18rem;
+   height: 100%;
+    border-right: 1.5px solid #e5e5e5;
+}
+h3{
+    font-size: 1.3rem;
+    margin-top: 25px;
+    font-family:'Roboto', sans-serif;
+}
+.profile{
+    
+     display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+li{
+    cursor: pointer;
+   padding: 1rem;
+    font-size: 1.4rem;
+    list-style: none;
+    }
+
+a{
+    text-decoration: none;
+    color: #7c7c7c;
+}
+a:hover{
+    color: #4da4f1;
+}
+a:focus{
+    color: #4da4f1;
+}

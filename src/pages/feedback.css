@@ -1,0 +1,56 @@
+.f-box {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.f-btn {
+    background-color: white;
+    color: black;
+    width: fit-content;
+    font-size: large;
+}
+
+.f-btn:hover,
+.f-btn:focus {
+    cursor: pointer;
+    color: #3397ef;
+    border-bottom: 1px solid #3397ef;
+    border-radius: 0%;
+}
+
+.f-container {
+    border-top: 2px solid #fafafa;
+    width: 40rem;
+    padding: 1rem;
+}
+
+.bar {
+    display: flex;
+    width: 100%;
+    background-color: #e0effd;
+}
+
+.bar:visited {
+    color: #3397ef;
+}
+
+.pbar {
+    cursor: pointer;
+    width: 100%;
+    height: .4rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.h4li {
+    color: #3397ef;
+}
+
+.f-card {
+    height: 2.3rem;
+    border-radius: 20px;
+    padding: 2rem;
+    background-color: #fafafa;
+    margin: 1rem;
+}

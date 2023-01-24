@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
+header {
+    box-sizing: border-box;
+    background-color: #fafafa;
+    justify-content: space-between;
+    justify-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 4.5rem;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+h2 {
+    font-size: 1.7rem;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 3rem;
+    margin-top: 14px;
+    color: blue;
+}
+
+span {
+    font-weight: lighter;
+    color: black;
+}
+
+.roundpic {
+    margin-top: .5rem;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+    rotate: 45deg;
+    margin-bottom: 1.8rem;
+    margin-left: 1rem;
+}
+
+.icon {
+    margin-right: 4rem;
+}

@@ -1,0 +1,56 @@
+.topbar {
+  border-bottom: 1px solid #e5e5e5;
+  width: 70rem;
+}
+
+.topbar h3 {
+  margin-left: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  width: 67rem;
+  font-size: 1rem;
+  color: #646464;
+  font-weight: 500;
+}
+
+.roundpic1 {
+  margin-top: .5rem;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  float: left;
+}
+.span {
+  float: left;
+  margin-top: 25px;
+}
+
+td,
+th {
+
+  border-bottom: 1px solid #ddd;
+  padding: 1rem;
+  text-align: left;
+
+}
+
+th {
+  background-color: black;
+  color: white;
+  font-weight: 300;
+  font-size: 1.1rem;
+  padding: 1.1rem;
+}
+
+button {
+  background-color: #3397ef;
+  border: none;
+  color: white;
+  padding: .5rem;
+  border-radius: 5px;
+  width: 7rem;
+}
